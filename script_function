@@ -1,0 +1,10 @@
+#!/bin/bash
+# Function Output
+function quadrado {
+  read -p "Digite um número entre 2 e 10: " numero
+  echo $[ $numero * $numero ]
+}
+# atribuindo o valor da função à variável do shell valor
+valor=`quadrado`
+# mostrando o valor:
+echo "O valor é $valor"
